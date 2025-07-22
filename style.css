@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+    
+
+
+}
+.list{
+    list-style: none;
+    display:flex;
+    justify-content: end;
+    margin: 0;
+    margin-left: 1500px;
+    gap: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    position: fixed;
+    width: 1550px;
+
+
+}
+
+
+.nav-item{
+    list-style: none;
+    display: flex;
+    gap: 90px;
+}
+.button{
+    background-color: red;
+    color: white;
+    padding: 15px;
+    margin: 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.hero-area{
+    padding-top:300px ;
+    padding-bottom:86px;
+    padding-left:100%-1360px ;
+    margin-left: 15px;
+    
+}
+.hero-left-content{
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    display: block;
+    unicode-bidi: isolate;
+}
+.h1{
+    font-size: 50px;
+    font-weight: 400px;
+}
+.span{
+    background-color: red;
+border-radius: 10px;
+}
+.small{
+    font-size:30px;
+    font-style: normal;
+}
+.app-store img{
+    display: flex;
+}
+.img2{
+    max-height: 250px;
+    width: 250px;
+    padding-left:200px;
+    margin-top:-140px;
+}
+/* grid-card */
+.leftside-container{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    gap: 100px;
+    margin-left: 900px;
+    margin-top: -500px;
+}
+
+
+
+
+/* card1 */
+.item1{
+    background-color: brown;
+    height: 700px;
+    width: 400px;
+    margin-left: -180px;
+    margin-top: -100px;
+    border-radius: 100px;
+    
+
+}
+
+.lazyloaded{
+    height: 700px;
+    width: 400px;
+    margin-top: -58px;
+    border-radius: 20px;
+}
+/* card2 */
+.item2{
+    height: 500px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 20px;
+}
+.lazy{
+    height: 600px;
+    width: 200px;
+    margin-top: -58px;
+    border-radius: 20px;
+}
+
+
+
+/* card3 */
+.item3{
+    height:600px;
+    width: 200px;
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+.fast{
+    height: 600px;
+    width: 200px;
+    margin-top: -60px;
+    border-radius: 20px;
+}
+
+
+/* media qurey */
+@media(max-width:500px){
+    body{
+        background-color: green;
+    }
+
+}
+
+
+
+
+
+    
+
+
+
+.card-container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    gap: 50px;
+    margin-left: 300px;
+    
+}
+.card1{
+    margin-left: -250px;
+    height: 200px;
+    width: 300px;
+    background-color: red;
+
+}
+.card2{
+    margin-left: -100px;
+    height: 250px;
+    width: 300px;
+    background-color: antiquewhite;
+}
+.card3{
+    margin-left: 100px;
+    height: 250px;
+    width: 300px;
+    background-color: blue;
+}
+.card4{
+    margin-left: 260px;
+    height: 250px;
+    width: 300px;
+    background-color: aqua;
+    
+}
+
+/* club */
+.club{
+    margin-left: 500px;
+}
+.gym-partner{
+    margin-left: 400px;
+}
+.grid-card{
+    display: flex;
+    grid-template-columns:100px 100px 100px 100px 100px 100px 100px 100px;
+    gap: 20px;
+    
+
+
+
+}
+.box1{
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    margin-left: 50px;
+    
+
+    
+
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: white
+}
+.box3{
+    height: 200px;
+    width: 200px;
+    background-color: white
+
+}
+.box4{
+    height: 200px;
+    width: 200px;
+    background-color: white
+    gap: 20px;
+}
+.box5{
+    height: 200px;
+    width: 200px;
+    background-color: white
+
+}
+.box6{
+    height: 200px;
+    width: 200px;
+    background-color: white
+
+}
+.box7{
+    height: 200PX;
+    width: 150PX;
+    background-color:white
+
+}
+
+
+.box8{
+    height: 200px;
+    width: 150px;
+    background-color: white
+    gap: 20px;
+}
+
+
+
+
+
+/* parent*/
+.parent{
+    display: grid;
+    grid-template-columns: 200px 200px 200px  200px 200px 200px;
+    gap: 10px;
+    margin-left: -400px;
+    padding: 100px;
+
+    
+
+
+}
+.child1,
+.child2,
+.child3{
+    height: 100px;
+    width: 200px;
+    background-color: white
+}
+.child4,
+.child5,
+.child6{
+    height: 100px;
+    width: 200px;
+    background-color:white;
+}
+.box-container{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    gap: 40px;
+    margin-top: 50px;
+    
+    
+    
+
+}
+.boxs1{
+    height: 100px;
+    width: 400px;
+    background-color: red;
+    border-radius: 30px;
+    
+}
+.boxs2{
+    height: 100px;
+    width: 400px;
+    background-color: aqua;
+    border-radius: 30px;
+
+    
+
+}
+.boxs3{
+    height:100px;
+    width: 400px;
+    background-color:green;
+    border-radius: 30px;
+    
+}
+.check{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    gap: 100px;
+}
+.che1{
+    height: 500px;
+    width: 400px;
+    background-color: white
+    margin-top: -200px;
+}
+.che2{
+    height: 500px;
+    width: 400px;
+    background-color: white
+    margin-top: -200px
+}
+
+.div{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    gap:200px;
+    margin-left: 300px;
+}
+.boxes{
+    height:600px;
+    width:400px;
+    background-color: white;
+
+
+}
+.boxes{
+    height: 300px;
+    width: 450px;
+    background-color: 
+
+}
+
+
+/* footer-area-start */
+.footer{
+    padding-top: 400px;
+    
+    
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+     padding:150px;
+    
+
+}
+
+.footer-logo{
+    margin-left: -100px;
+    margin-top: -100px;
+    
+}
+
+
+.ul-footer{
+    list-style: none;
+    display: flex;
+gap: 200px;
+    
+    
+}
+
+
